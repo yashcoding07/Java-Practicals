@@ -25,6 +25,7 @@ class CreditCardPayment implements Payment{
 
     @Override
     public void makePayment(double amount) {
+        System.out.println("The credit card holder name is " + creditCardHolderName);
         System.out.println("Processing Credit card method of INR: " + amount);
     }
 
